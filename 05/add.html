@@ -8,7 +8,12 @@
 	<link rel="stylesheet" href="css/add.css">
 </head>
 <body>
-	<button>덧셈 계산하기</button>
-	
+	<button onclick='addNumber()'>덧셈 계산하기</button>
+	<script>
+		let a = parseInt(prompt('첫번째 수를 입력해주세요.'));
+		let b = parseInt(prompt('두번째 수를 입력해주세요.'));
+		
+		addNumber = () => alert(a+b);
+	</script>
 </body>
 </html>

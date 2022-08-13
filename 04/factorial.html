@@ -9,5 +9,16 @@
 </head>
 <body>
 
+	<script>
+		var v=prompt('숫자를 입력하세요','10');
+		var nFact=1; // 펙토리얼 계산 결괏값을 저장할 변수
+		var num = v;
+		while(v>0){
+			nFact*=v;
+			v--;
+		}
+		document.write(`${num}!=${nFact}`);
+	</script>
+
 </body>
 </html>
